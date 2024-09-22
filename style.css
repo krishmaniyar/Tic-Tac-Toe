@@ -1,0 +1,67 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(87, 87, 217);
+}
+
+h3
+{
+    margin: 0%;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container > .left
+{
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .left > .player_1_details
+{
+    width: 100%;
+}
+
+.name
+{
+    border: 3px solid black;
+    margin: 3%;
+}
+
+.container > .middle
+{
+    flex: 3;
+    height: 68%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container > .middle > .container2
+{
+    border: 3px solid black;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container > .middle > .container2 > .grid-item
+{
+    border: 2px solid black;
+}
+
+.container > .right
+{
+    flex: 1;
+    height: 100%;
+}
