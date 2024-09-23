@@ -7,30 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="player_1_details">
-                <div class="name">
-                    <h3>Krish</h3>
-                    <h3>Win:1</h3>
+    <div class="input1" id="input1">
+        <h1 style="margin: 2%;font-size: 3em;">Tic Tac Toe</h1>
+        <form action="get" id="details">
+            <h3>
+                <label for="name">Enter name of Player 1</label>
+                <input type="text" name="p" id="person_1_">
+                <br>
+                <br>
+                <label for="name">Enter name of Player 2</label>
+                <input type="text" name="p" id="person_2_">
+                <br>
+                <button type="button" id="Submit">Start Game</button>
+            </h3>
+        </form>
+    </div>
+    <div class="content" id="content">
+        <div class="container" id="container">
+            <div class="left">
+                <div class="player_1_details">
+                    <div class="name" id="player_1">
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <h1 style="text-align: center;font-size: 4em; margin-top: 5px; margin-bottom: 20px;">Tic Tac Toe</h1>
+                <div class="main">
+                    <div class="container2">
+                        <div class="grid-item" id="grid1" onclick="fill('grid1',1)"></div>
+                        <div class="grid-item" id="grid2" onclick="fill('grid2',2)"></div>
+                        <div class="grid-item" id="grid3" onclick="fill('grid3',3)"></div>
+                        <div class="grid-item" id="grid4" onclick="fill('grid4',4)"></div>
+                        <div class="grid-item" id="grid5" onclick="fill('grid5',5)"></div>
+                        <div class="grid-item" id="grid6" onclick="fill('grid6',6)"></div>
+                        <div class="grid-item" id="grid7" onclick="fill('grid7',7)"></div>
+                        <div class="grid-item" id="grid8" onclick="fill('grid8',8)"></div>
+                        <div class="grid-item" id="grid9" onclick="fill('grid9',9)"></div>
+                    </div>
+                </div>
+                <div class="reset">
+                    <button onclick="reset1()"><h1>Reset</h1></button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="player_2_details"></div>
+                    <div class="name" id="player_2">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="middle">
-            <div class="container2">
-                <div class="grid-item" id="grid1"></div>
-                <div class="grid-item" id="grid2"></div>
-                <div class="grid-item" id="grid3"></div>
-                <div class="grid-item" id="grid4"></div>
-                <div class="grid-item" id="grid5"></div>
-                <div class="grid-item" id="grid6"></div>
-                <div class="grid-item" id="grid7"></div>
-                <div class="grid-item" id="grid8"></div>
-                <div class="grid-item" id="grid9"></div>
-            </div>
-        </div>
-        <div class="right"></div>
+        <script src="javascript.js"></script>
     </div>
-    <script src="javascript.js"></script>
 </body>
 </html>
