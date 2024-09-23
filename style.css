@@ -36,7 +36,7 @@ h3,h1
 {
     border: 3px solid white;
     border-radius: 20px;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 3%;
     padding: 15px;
     margin-top: 100%;
@@ -113,7 +113,8 @@ h3,h1
 {
     align-items: center;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.9em;
+    padding: 10%;
 }
 
 h3 > button
