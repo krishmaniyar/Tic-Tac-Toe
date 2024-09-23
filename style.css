@@ -102,9 +102,11 @@ h3,h1
 .reset > button
 {
     border: 0px;
-    padding: 2%;
+    padding: 1.5%;
     align-items: center;
     border-radius: 20px;
+    margin-top: 20px;
+    font-size: 1.7em;
 }
 
 .input1
