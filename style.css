@@ -9,6 +9,7 @@ body
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+    height: 100vh;
 }
 
 h3,h1
